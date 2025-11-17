@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link rel="stylesheet" href="auto.css">
+    </head>
+    <body>
+        <h1>Goblin Battle</h1>
+        <button onclick="window.location.href='team-build.html'">Build your team</button>
+        <button onclick="startBattle()">Start Battle</button>
+        <br><br>
+        <div id="teamDisplay">
+            <div id="team1Display"></div>
+            <div id="team2Display"></div>
+        </div>
+        <div id="team1Log"></div>
+        <div id="team2Log"></div>
+        <div id="activeTeam1">
+            <img id="activeTeam1Img" src="" alt="" style="width:300px;height:300px;"><br>
+            <span id="activeTeam1Name"></span>
+        </div>
+        <div id="activeTeam2">
+            <img id="activeTeam2Img" src="" alt="" style="width:300px;height:300px;"><br>
+            <span id="activeTeam2Name"></span>
+        </div>
+        
+        <p id="battleLog">Goblin</p>
+        <script src="abilities.js"></script>
+        <script src="fighters.js"></script>
+        <script src="auto.js"></script>
+     
+    </body>
+</html>

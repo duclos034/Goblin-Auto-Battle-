@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color: green;
+    font-family:'Times New Roman', Times, serif;
+}
+button{
+    background-color: green;
+}
+
+#battleLog{
+    text-align: center;
+    
+    border: 1px solid green;
+    width : 40%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#teamDisplay {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#team1Display, #team2Display {
+    width: 40%;
+    text-align: left;
+}
+
+#team2Display {
+    text-align: right;
+}
+
+#team1Log {
+    text-align: left;
+}
+
+#team2Log {
+    text-align: right;
+}
+
+#activeTeam1 {
+    float: left;
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+#activeTeam2 {
+    float: right;
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+    padding: 10px;
+}
